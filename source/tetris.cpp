@@ -88,6 +88,7 @@ int Check_Collision(int shape,int angle, int x, int y);
 int main()
 {
 	int key;
+	
 	int g_Diff;	
 
 	srand(time(NULL));
@@ -123,11 +124,11 @@ int main()
 			else if(g_Stage[g_Diff].is_clear == LOSE)
 			{
 				system("cls");
-				printf("당신은 게임에서 졋습니다 ㅜ__ㅜ");
+				printf("당신은 게임에서 졋습니�?ㅜ__ㅜ");
 				Sleep(1000);
 				break;
 			}
-			//사용중인 블록이 충돌조건에 의해 false상태가 됬을경우 교체작업
+			//사용중인 블록이 충돌조건에 의해 false상태가 됬을경�?교체작업
 			if(using_Block.exist == FALSE)
 			{
 				Change_Block(g_Diff);	
